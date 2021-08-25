@@ -1,0 +1,58 @@
+Registration fields:
+Do you have a registration code?
+
+If YES
+{
+Registration code:
+Full Name:
+Email:
+Password (Can be set here or can be asked to set upon email verification): 
+Phone Number (Verification with OTP):
+DOB:
+Gender:
+Class:
+School name (AJAX):
+}
+
+IF NO
+{
+Full Name:
+Email:
+Password (Can be set here or can be asked to set upon email verification): 
+Phone Number (Verification with OTP):
+DOB:
+Gender:
+}
+
+---
+
+Courses
+Course Name:
+Image
+Description
+
+Books
+Book Name:
+Author Name / Compiled or Prepared by
+Under which course (Drop down):
+Image
+Description
+
+Chapters/Sections
+Chapter/Section Name:
+Description
+Under Which Book (Drop down):
+Chapter Contents:
+Explanation Video
+Conversation Video  
+Practice
+Tests
+Results
+
+Video Upload
+Video Title:
+Under Which Book (Drop Down):
+Under Which Chapter (Drop down):
+Video Type (Radio Button):
+Explanation
+Conversation

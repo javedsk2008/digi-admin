@@ -1,0 +1,91 @@
+ Prominent Features
+
+ Student Registration valid for limited time using Scratch Code.
+ Display Plans.
+ Display Categories.
+ Display class-wise Videos.
+ Create Activities for every Chapter (Different activities as per Activities sample pdf).
+ Generate and Store Results of Activities performed.
+ Store number of attempts made and display latest result.
+ Payment gateway integration.
+ SMS gateway integration.
+ Email gateway integration.
+ 4 user roles.
+i. Admin ii. School Admin iii. Students (General and School) iv. Teachers.
+ Sales report per month.
+ Login and forget password. 
+
+ Functional specification
+
+Admin
+1) User account:
+i. Login screen. Login with Email/Username & Password.
+ii. Forgot Password. A new password will be sent by email.
+iii. Admin can update the profile.
+iv. After logging-in admin can create/set/update any of the following:
+
+2) Create, Edit, Delete & Hide Courses / Plans.
+
+3) Create, Edit, Delete Activities. 
+
+4) Create, Edit, Delete Subscriptions.
+
+5) Create, Edit, Delete School admin.
+
+Student
+1) User account:
+i.. Registration:
+a. School student will register with the unique code provided with the book using with 
+OTP that will be sent on their mobile numbers (while registration)
+
+b. General student will signup normally and subscribe to a course by paying online.
+ii. Login screen for students.
+iii. Forgot Password. A new password will be sent by email and sms.
+iv. Student can edit profile. At the time of edit profile student can select school from the list.
+v. After logging-in the student will reach the dashboard from where he/she can access the 
+following.
+
+2) Subscription
+i. Students can subscribe to any plan/course of their choice
+ii. Once subscribed to the plan then selected books will be accessible for the student in the 
+account.
+iii. There will be no auto-renewal for the subscription. Students can renew the subscription plan 
+manually with payment for next month/year.
+iv. Students can upgrade or downgrade the subscription plans.
+v. Payment gateway preferable is Razorpay.
+
+3) Access Courses
+i. Students will have access to their respective courses.
+ii. They can read, watch, take up activity, check their score etc.
+iii. If the access is limited by time, like one year or one month, it will be locked after the period.
+iv. Books, videos will be available in the website environment only.
+v. Can apply for activities multiple times, keep track of activity attempts.
+vi. Section wise - activity report, share with teacher. 
+
+School Admin Role:
+1) User account:
+i. Registration: Admin will create a school admin account.
+ii. Login screen for school admin.
+iii. Forgot Password. A new password will be sent by email.
+iv. School admin can edit profile
+v. After logging-in the school admin will reach the dashboard from where he/she can access the 
+following:
+
+2) School students list with activities scoreboard report. 
+
+3) Can create class teacher login.
+
+School Teacher Role:
+1) User account:
+i. Login screen for Teacher.
+ii. Forgot Password. A new password will be sent by email.
+iii. Teacher can edit profile.
+iv. After logging-in the school admin will reach the dashboard from where he/she can access the 
+following:
+
+2) Can view Class students list with activities scoreboard report.
+
+● Technical specifications
+ Android App will be build using Android Studio.
+ Admin Panel will also be built using PHP Framework ‘Laravel’.
+ Technology for database will be MySQL.
